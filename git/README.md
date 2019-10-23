@@ -1,5 +1,0 @@
-# README
-
-```
-$ sh gitconfig.sh
-```

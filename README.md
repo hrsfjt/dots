@@ -1,5 +1,6 @@
-# ENVIRONMENT_CUSTUMIZE
+# DOTS 
 
-ドットファイルの設定管理
-
+```
+$ sh git/gitconfig.sh
+```
 
