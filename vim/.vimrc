@@ -7,15 +7,18 @@ set wrapscan
 set cursorline
 set autoindent
 
-set showmatch
 set showmatch matchtime=1
 set cinoptions+=:0
 set cmdheight=2
 set laststatus=2
-set shiftwidth=2
 set virtualedit=block
 set ambiwidth=double
 set fenc=utf-8
+
+set tabstop=4
+set shiftwidth=4
+
+set showcmd
 
 set fileencodings=utf-8,cp932,euc-jp,sjis
 
