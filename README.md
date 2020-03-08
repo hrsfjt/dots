@@ -1,6 +1,5 @@
 # DOTS 
 
 ```
-$ sh git/gitconfig.sh
+$ bash git/gitconfig.sh
 ```
-
