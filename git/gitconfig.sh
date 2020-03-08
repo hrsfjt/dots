@@ -24,8 +24,14 @@ git config --global core.editor 'vim -c "set fenc=utf-8"'
 # user's ~/.gitconfig. Its default value is
 # $XDG_CONFIG_HOME/git/ignore. If $XDG_CONFIG_HOME is either not set
 # or empty, $HOME/.config/git/ignore is used instead.
+if [ ! -e $HOME/.config ]; then
+  mkdir -p $HOME/.config/git
+  touch $HOME/.config/git/ignore
+  cat $SCRIPT_DIR/ignore >>$HOME/.config/git/ignore
+  echo "$HOME/.config/git/ignore created"
+fi
 if [ ! -e $HOME/.config/git ]; then
-  mkdir $HOME/.config/git
+  mkdir -p $HOME/.config/git
   touch $HOME/.config/git/ignore
   cat $SCRIPT_DIR/ignore >>$HOME/.config/git/ignore
   echo "$HOME/.config/git/ignore created"
