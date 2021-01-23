@@ -1,5 +1,13 @@
 # DOTS
 
+## OS
+
+```
+macOS Big Sur 11.1
+```
+
+## SHELL
+
 ```
 $ bash --version
 GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin20)
@@ -9,18 +17,20 @@ $ zsh --version
 zsh 5.8 (x86_64-apple-darwin20.0)
 ```
 
-## git settings `/git`
+## DotFile
+
+### git `/git`
 
 * [git settings](./git/README.md)
 
-## vim settings `/vim`
+### vim `/vim`
 
 * [vim settings](./vim/README.md)
 
-## brew settings `/brew`
+### brew `/brew`
 
 * [brew settings](./brew/README.md)
 
-## zsh settings `/zsh`
+### zsh `/zsh`
 
 * [zsh settings](./zsh/README.md)
