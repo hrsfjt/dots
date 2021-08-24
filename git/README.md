@@ -2,11 +2,8 @@
 
 ```
 $ git --version
-git version 2.29.2
+git version 2.32.0
 ```
 
-* edit .gitconfig
-    * rename `$USER_NAME`
-    * rename `$EMAIL`
-    * rename `$HOME`
-* move .gitconfig : `cp .gitconfig $HOME/.gitconfig`
+1. edit .gitconfig : rename `$USER_NAME` / `$EMAIL` / `$HOME`
+2. move .gitconfig : `cp .gitconfig $HOME/.gitconfig`

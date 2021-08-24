@@ -2,9 +2,9 @@
 
 ```
 $ brew --version
-Homebrew 2.7.1
-Homebrew/homebrew-core (git revision 865fd3; last commit 2020-12-29)
-Homebrew/homebrew-cask (git revision 3747f; last commit 2020-12-29)
+Homebrew 3.2.9
+Homebrew/homebrew-core (git revision 05b8236bf4; last commit 2021-08-23)
+Homebrew/homebrew-cask (git revision b9170f0c52; last commit 2021-08-23)
 ```
 
 ## formula.txt
