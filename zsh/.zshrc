@@ -1,12 +1,25 @@
-# prompt theme, https://github.com/sindresorhus/pure
-autoload -U promptinit; promptinit
-prompt pure
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
 
-# completion
-if (( ! ${fpath[(I)/usr/local/share/zsh-completions]} )); then
-  FPATH=/usr/local/share/zsh-completions:$FPATH
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
+
+# Customize to your needs...
 autoload -U compinit
 compinit
 
-# Customize ...
+# prompt theme, https://github.com/sindresorhus/pure
+autoload -U promptinit
+promptinit
+prompt pure
+
+# zsh compile
+if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
+  zcompile ~/.zshrc
+fi
