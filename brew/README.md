@@ -1,13 +1,17 @@
 # Homebrew
 
-```
+```bash:bash
 $ brew --version
-Homebrew 3.2.9
-Homebrew/homebrew-core (git revision 05b8236bf4; last commit 2021-08-23)
-Homebrew/homebrew-cask (git revision b9170f0c52; last commit 2021-08-23)
+Homebrew 3.6.14
+Homebrew/homebrew-core (git revision ba649aabd71; last commit 2022-12-11)
+Homebrew/homebrew-cask (git revision 915b52bef50; last commit 2022-12-11)
 ```
 
-## formula.txt
+## install packages
 
-* install formula : `xargs brew install < formula.txt`
-* export formula : `brew leaves > formula.txt`
+https://github.com/Homebrew/homebrew-bundle
+
+```
+$ cp Brewfile ~/
+$ brew bundle
+```
