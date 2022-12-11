@@ -2,7 +2,7 @@
 
 ```
 $ git --version
-git version 2.32.0
+git version 2.38.2
 ```
 
 1. edit .gitconfig : rename `$USER_NAME` / `$EMAIL` / `$HOME`

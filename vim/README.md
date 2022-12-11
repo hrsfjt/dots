@@ -2,7 +2,7 @@
 
 ```
 $ vim --version
-VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Jun 17 2021 18:50:51)
+VIM - Vi IMproved 9.0 (2022 Jun 28, compiled Aug 17 2022 21:20:29)
 ```
 
 * set .vimrc : `bash vimrc.sh`
